@@ -1,0 +1,76 @@
+	body {
+			    color: rgb(68, 68, 68);
+			    text-align: center;
+			    font: 14px/180% Arial, "Microsoft Yahei", 宋体, Helvetica, sans-serif, Verdana;
+			    margin: 0px;
+			    background: url(./../img/header/bg_2-1.jpg) center top repeat-x;
+			}
+    .bg-bg1{
+				    width: 100%;
+				    margin: 0 auto;
+				    background: url(./../img/header/bg1.jpg) top no-repeat;
+			}
+			
+   .mainnav{
+	       background: url(./../img/header/dh_bg.jpg) repeat-x;
+	       left: 0;
+	       right: 0;
+	       top: 0;
+   }
+   
+   .mainnav li{    
+	   float: left;
+       text-align: center;
+       position: relative;
+       background: url(./../img/header/digit_12.jpg) left top no-repeat;
+   }
+	 .left-class{
+		 background: url(./../img/foot/left_class_bg.png) no-repeat;
+	 }
+	 .list-image {
+		 list-style-image: url(./../img/foot/news_arrow.gif) ;
+	 }
+	 .bg-longbar{
+		  background: url(./../img/foot/longbar_bg.png)  no-repeat;
+		  background-size: 100% 100%;
+	 }
+	 .border-img>div>img{
+		 border: 1px solid #e8e8e8;
+		 box-shadow: -2px 2px 2px #e8e8e8;
+	 }
+	 .border-img>div>img:hover{
+		 border:1px solid #0069D9;
+	 }
+	 .right-class{
+		 background: url(./../img/foot/right_class_bg.png) ;
+		 background-size: 100% 100%;
+	 }
+	 
+	 .bg-footer{
+		 background: #2c5169;
+	 }
+	 
+	 .text-p{
+		 text-indent: 2rem;
+	 }
+	 .floating{
+		 position: fixed;
+		 width: 140px;
+		 height: 240px;
+		 top:50px;
+		 right:5px;
+		 border-radius:5px  ;
+		 background: #fff;
+		 color:#4587e8;
+		 border: 1px solid #4587e8;
+	 }
+	 .floating .floating-1{
+		     background: #4587e8 url(./../img/foot/iconBack10.png) no-repeat;
+			  border-radius:5px  ;
+	 }
+	 .floating-2>div{
+		    background: #cbdaff url(./../img/foot/icongroup10.png) 1px no-repeat;
+		    border: 1px solid #4587e8;
+			border-radius:25px;
+			font-size: 12px;
+			}
